@@ -1,0 +1,21 @@
+
+  <footer>
+      <div class="container">
+        <p class="text-muted"> <a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a> &copy;  All rights reserved.</p>
+      </div>
+  </footer>
+</div>
+
+{{ template "_internal/google_analytics_async.html" . }}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script><script src="js/main.js"></script>
+
+{{- if .Params.highlight -}}
+{{ "<!-- Syntax highlighting -->" | safeHTML }}
+<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.7.0/highlight.min.js"></script>
+<script>hljs.initHighlightingOnLoad();</script>
+{{ end }}
+
+
+</body>
+</html>

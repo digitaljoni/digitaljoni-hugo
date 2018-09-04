@@ -1,0 +1,33 @@
+{{ partial "header.html" . }}
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2 id="title">Blog Posts</h2>
+      </div>
+    </div>
+    
+    <div class="row">
+      {{ range (.Paginator 12).Pages }}
+        {{ .Render "li" }}
+      {{ end }}
+    </div>
+
+    {{ if or (.Paginator.HasPrev) (.Paginator.HasNext) }}
+    <nav class="pagination">
+      {{ if .Paginator.HasPrev }}
+      <a class="pagination__link pagination__link--prev" href="{{ .Paginator.Prev.URL }}">&lt; Prev</a>
+      {{ end }}
+      <span class="pagination__current">{{ .Paginator.PageNumber}} / {{ .Paginator.TotalPages }} Page</span>
+      {{ if .Paginator.HasNext }}
+      <a class="pagination__link pagination__link--next" href="{{ .Paginator.Next.URL }}">Next &gt;</a>
+      {{ end }}
+    </nav>
+    {{ end }}
+    
+  </div>
+
+  {{ partial "social.html" . }}
+
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,11 @@
+{{ partial "head" . }}
+  <body>
+    <div id="wrapper" 
+      {{if .IsHome}}
+      class="custom-home-background" style="background-image: url(img/{{ .Site.Params.homebackground }});"
+      {{end}}
+      >
+      <header id="header">
+        {{ partial "navbar" . }}
+      </header>
+      

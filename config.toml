@@ -1,0 +1,25 @@
+baseURL = "https://digitaljoni.com/"
+languageCode = "en-US"
+title = "digitaljoni"
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+theme = "digitaljoni"
+
+[permalinks]
+  post = "/:year/:slug"
+
+[params]
+  logo = "logo-2018.png"
+  homebackground = "digitaljoni-header.jpg"
+  author = "Joennie Sindo"
+  description = "Web/Mobile Application Development"
+
+[params.social]
+  github="digitaljoni"
+  instagram="digitaljoni"
+  twitter="digitaljoni"
+  facebook="digitaljoni"
+  google="digitaljoni"
+  linkedin="digitaljoni"
+  email="digitaljoni@gmail.com"
