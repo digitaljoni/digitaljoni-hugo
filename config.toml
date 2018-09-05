@@ -2,7 +2,7 @@ baseURL = "http://digitaljoni.github.io/"
 languageCode = "en-US"
 title = "digitaljoni"
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = ""
+googleAnalytics = "UA-7914706-1"
 
 theme = "digitaljoni"
 
