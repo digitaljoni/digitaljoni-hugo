@@ -1,5 +1,5 @@
 +++ 
-title = "Privacy"
+title = "Privacy Policy"
 slug = "" 
 date = 2018-09-06T00:35:37+08:00
 tags = []
