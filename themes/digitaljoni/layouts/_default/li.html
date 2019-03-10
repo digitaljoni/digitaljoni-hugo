@@ -1,7 +1,7 @@
-<div class="col-md-4">
+<div class="fl-ns w-33-ns ph2">
   <article class="card mb-4 shadow-sm border-0">
     <a href="{{ .Permalink }}">
-      <img class="card-img-top img-fluid" src="{{ if and (.Params.image) (ne .Params.image "") }}/{{ .Params.image }}{{ else }}/img/theme/thumb.png{{ end }}" alt="">
+      <img class="card-img-top img-fluid" src="{{ if and (.Params.image) (ne .Params.image "") }}{{ .Params.image }}{{ else }}/img/theme/thumb.png{{ end }}" alt="">
     </a>
 
     <div class="card-body">

@@ -2,10 +2,17 @@
   <body>
     <div id="wrapper" 
       {{if .IsHome}}
-      class="custom-home-background" style="background-image: url(img/{{ .Site.Params.homebackground }});"
+      class="custom-home-background" 
+      style="background-image: url(img/{{ .Site.Params.homebackground }});"
       {{end}}
       >
-      <header id="header">
+      <header id="header" class="flex justify-between items-center z-2 bg-black">
+
+        <h1 class="ml3">
+        {{if not .IsHome}}
+          <a href="{{ .Site.BaseURL }}"><img class=" h3" src="{{ .Site.BaseURL }}img/{{ .Site.Params.pageLogo }}" alt="{{ .Site.Params.title }}"></a>
+        {{end}}
+        </h1>
         {{ partial "navbar" . }}
       </header>
       

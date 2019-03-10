@@ -8,9 +8,10 @@ theme = "digitaljoni"
 
 [permalinks]
   post = "/:year/:slug"
-
+      
 [params]
   logo = "logo-2018.png"
+  pageLogo = "logo2.png"
   homebackground = "digitaljoni-header.jpg"
   author = "Joennie Sindo"
   description = "Web/Mobile Application Development"
@@ -23,3 +24,15 @@ theme = "digitaljoni"
   google="+digitaljoni"
   linkedin="digitaljoni"
   email="hello@digitaljoni.com"
+
+## Main Menu
+[[menu.main]]
+  name = "home"
+  weight = 100
+  identifier = "home"
+  url = "/"
+[[menu.main]]
+  name = "resources"
+  identifier = "resources"
+  weight = 200
+  url = "/resources/"

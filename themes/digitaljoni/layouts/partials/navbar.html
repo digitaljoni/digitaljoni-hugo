@@ -1,4 +1,8 @@
-<nav class="navbar navbar-expand-sm navbar-light">
+<a href="#0" id="mobile-menu-toggle" class="link pa3 dn-l">
+  ☰ Menu
+</a>
+
+<!-- <nav class="navbar navbar-expand-sm navbar-light">
   <ul class="navbar-nav navbar-right">
     {{ if .Site.Menus.main }}
       {{ range sort .Site.Menus.main }}
@@ -8,4 +12,24 @@
       {{ end }}
     {{ end }}
   </ul>
+</nav> -->
+
+
+
+<nav id="main-nav" class="dn db-l mr3">
+  {{ if .Site.Menus.main }}
+    {{ range sort .Site.Menus.main }}
+        <a class="link db dib-l pa2 pv2" href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  {{ end }}
+
+</nav>
+
+<nav id="main-nav-mobile" class="dn absolute top-100 tc right-0 w-100 w-40-ns   ba bg-black">
+  {{ if .Site.Menus.main }}
+    {{ range sort .Site.Menus.main }}
+        <a class="link db ph2 pv3 bt b--white-20" href="{{ .URL }}">{{ .Name }}</a>
+    {{ end }}
+  {{ end }}
+
 </nav>

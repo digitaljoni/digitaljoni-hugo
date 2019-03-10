@@ -1,14 +1,14 @@
 {{ partial "header.html" . }}
 
-  <div class="container">
-    <div class="blog-post">
+  <article class="pa3 cf w-90-ns center">
+    <div class="article-title">
       <h2>
         <strong><a href="{{ .Permalink }}">{{ .Title }}</a></strong>
       </h2>
     </div>
 
     {{ if ne .Params.showmeta false }}
-      <div class="blog-meta">
+      <div class="article-meta">
         <p>
         {{ .Date.Format "January 2, 2006" }}
           &nbsp;&nbsp;
@@ -19,7 +19,7 @@
       </div>
     {{ end }}
 
-    <div class="blogpost">
+    <div class="article-body">
       {{ .Content }}
 
 
@@ -45,7 +45,7 @@
       {{ end }}
     </div>
 
-  </div>
+  </article>
 
 {{ partial "social.html" . }}
 
