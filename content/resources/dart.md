@@ -6,7 +6,7 @@ categories = []
 image = "/resources/img/dart.png"
 weight = 200
 
-draft = true 
+draft = false 
 showcomments = false 
 showmeta = false
 +++
