@@ -1,5 +1,14 @@
 #!/bin/bash
 
+# Go To Public folder
+cd public
+
+# Make sure to checkout master
+git checkout master
+
+# Come Back up to the Project Root
+cd ..
+
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
 # Build the project.
@@ -7,6 +16,7 @@ hugo # if using a theme, replace with `hugo -t <YOURTHEME>`
 
 # Go To Public folder
 cd public
+
 # Add changes to git.
 git add .
 
@@ -22,3 +32,5 @@ git push origin master
 
 # Come Back up to the Project Root
 cd ..
+
+echo -e "\033[0;32mGitHub deployment... done!\033[0m"
