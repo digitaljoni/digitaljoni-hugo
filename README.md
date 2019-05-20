@@ -6,6 +6,12 @@ Digitaljoni website is developed using [Hugo](https://gohugo.io/)
 
 Follow instructions on [installing Hugo](https://gohugo.io/getting-started/installing/) on your machine.
 
+## Instructions
+Git Clone using --recurse-submodules -j8
+```
+git clone --recurse-submodules -j8 git@github.com:digitaljoni/digitaljoni-hugo.git digitaljoni_hugo
+```
+
 
 ## Commands
 
