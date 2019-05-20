@@ -22,6 +22,9 @@ Here's a growing list of flutter resources I have found online:
 - [Coding With Flutter](https://www.youtube.com/watch?v=u_Lyx8KJWpg&list=PLNnAcB93JKV9iZ2cwk9MEx3_JG8BRikMP)
 - [Flutter' Official Youtube Channel](https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw)
 
+### Flutter Tutorials
+- [How to Create Your First App](https://www.toptal.com/flutter/flutter-tutorial)
+
 ### Flutter Tools
 - [How to do this in Flutter?](https://howtodothisinflutter.com/)
 - [Flutter Icon](http://fluttericon.com/) - Convert your SVG icons to Icon fonts (complete with Flutter code)
