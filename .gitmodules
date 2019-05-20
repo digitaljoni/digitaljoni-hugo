@@ -2,3 +2,4 @@
 	path = public
 	url = git@github.com:digitaljoni/digitaljoni.github.io.git
 	branch = master
+	ignore = all
