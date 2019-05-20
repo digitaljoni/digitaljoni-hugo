@@ -17,11 +17,12 @@ You write your Flutter applications using a programming language called [Dart](/
 
 Here's a growing list of flutter resources I have found online:
 
-### Flutter Tutorials
-
+### Flutter Video Tutorials
 - [Build Native Mobile Apps with Flutter](https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905)
-
+- [Coding With Flutter](https://www.youtube.com/watch?v=u_Lyx8KJWpg&list=PLNnAcB93JKV9iZ2cwk9MEx3_JG8BRikMP)
+- [Flutter' Official Youtube Channel](https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw)
 
 ### Flutter Tools
 - [How to do this in Flutter?](https://howtodothisinflutter.com/)
 - [Flutter Icon](http://fluttericon.com/) - Convert your SVG icons to Icon fonts (complete with Flutter code)
+- [Flutter Studio](https://flutterstudio.app/) - Online drag and drop tool to build Flutter UI
