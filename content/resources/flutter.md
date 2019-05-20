@@ -19,7 +19,7 @@ Here's a growing list of flutter resources I have found online:
 
 ### Flutter SDK 
 - [Flutter SDK - Official Site](https://flutter.dev/)
-- [FLutter Widget Catalog](https://flutter.dev/docs/development/ui/widgets)
+- [Flutter Widget Catalog](https://flutter.dev/docs/development/ui/widgets)
 
 ### Flutter SDK Video Tutorials
 - [Build Native Mobile Apps with Flutter](https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905)
@@ -28,6 +28,7 @@ Here's a growing list of flutter resources I have found online:
 
 ### Flutter SDK Tutorials
 - [How to Create Your First App](https://www.toptal.com/flutter/flutter-tutorial)
+- [JSON and Serialization in FLutter](https://flutter.dev/docs/development/data-and-backend/json)
 
 ### Flutter SDK Tools
 - [How to do this in Flutter?](https://howtodothisinflutter.com/)
