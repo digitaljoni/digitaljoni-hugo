@@ -6,6 +6,9 @@ googleAnalytics = "UA-7914706-1"
 
 theme = "digitaljoni"
 
+[blackfriday] 
+  hrefTargetBlank = true
+
 [permalinks]
   post = "/:year/:slug"
       
