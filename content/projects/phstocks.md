@@ -13,6 +13,8 @@ showmeta = false
 
 PhStocks Tracker is a mobile app that Philippine stock investors can utilize to watch price changes to their selected stocks. This app is primarily focused on users who use Fundamental Analysis as their investment strategy. 
 
+<a href='https://play.google.com/store/apps/details?id=com.digitaljoni.ph_stock_tracker&pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1'><img alt='Get it on Google Play' src='https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png' width='200' /></a>
+
 ### Why I Built The App
 If you are a busy person (i.e. a full-time employee or a student), you wouldn't have the time to go your stock broker's site daily to check the latest changes to your stocks. 
 
