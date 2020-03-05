@@ -1,0 +1,18 @@
+category:
+- title: Dart Documentation
+  links:
+  - name: Dart.dev
+    link: https://dart.dev/
+    description: Official website of Dart language
+  - name: Effective Dart
+    link: https://dart.dev/guides/language/effective-dart
+    description: Best practices for building efficient Dart code
+  - name: Language Tour
+    link: https://dart.dev/guides/language/language-tour
+    description: Official website of Dart language
+
+- title: Dart Tools
+  links:
+  - name: DartPad
+    link: https://dartpad.dev/
+    description: A convenient tool to learn Dart syntax (supports Dart’s core libraries)

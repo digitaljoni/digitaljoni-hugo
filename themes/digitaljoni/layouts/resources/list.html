@@ -1,0 +1,59 @@
+{{ partial "header.html" . }}
+
+  <div class="pa3 cf w-90-ns center">
+    <div class="cf w-100">
+      <div class="col-md-12 text-center">
+        <h2 id="title">{{ .Title }}</h2>
+      </div>
+    </div>
+    
+    <div class="cf w-100">
+      <div class="fl-ns w-33-ns ph2">
+        <article class="card mb-4 shadow-sm border-0">
+          <a href="https://digitaljoni.com/flutter">
+            <img class="card-img-top img-fluid" src="/resources/img/flutter.png" alt="">
+          </a>
+      
+          <div class="card-body">
+            <a href="https://digitaljoni.com/flutter">
+              <h3>Flutter Resources</h3>
+            </a>
+            
+            <p class="summary">
+              Flutter SDK is an open-source mobile app SDK created by Google. Flutter SDK allows you to build an app using a single codebase that can be compiled to both Android and IOS. It is also used to build applications for Google Fuchsia OS. 
+            </p>
+          </div>
+          
+        </article>
+      </div>
+      
+
+      <div class="fl-ns w-33-ns ph2">
+        <article class="card mb-4 shadow-sm border-0">
+          <a href="https://digitaljoni.com/dart">
+            <img class="card-img-top img-fluid" src="/resources/img/dart.png" alt="">
+          </a>
+      
+          <div class="card-body">
+            <a href="https://digitaljoni.com/dart">
+              <h3>Dart Resources</h3>
+            </a>
+            
+            <p class="summary">
+              Dart is the programming language used on both Flutter and AngularDart. Developed by Google, it aims to enable developers to build complex and high-performing apps. One advantage of using Dart is that you can build your business logic once and use it on both mobile (Flutter) and web (AngularDart) applications. You can even use Dart server-side as well.
+
+            </p>
+          </div>
+          
+        </article>
+      </div>
+      
+    </div>
+
+    
+  </div>
+
+  {{ partial "social.html" . }}
+
+
+{{ partial "footer.html" . }}

@@ -1,0 +1,45 @@
+{{ define "main" }}
+
+<div class="pa3 cf w-90-ns center">
+  <div class="cf w-100">
+    <div class="col-md-12 text-center">
+      <h2 id="title">{{ .Title }}</h2>
+      
+    </div>
+  </div>
+  
+  <article class=" article-body cf w-100">
+    <p>Dart is the programming language used on both Flutter and AngularDart. 
+      Developed by Google, it aims to enable developers to build complex and high-performing apps. 
+      One advantage of using Dart is that you can build your business logic once and use it on 
+      both mobile (Flutter) and web (AngularDart) applications. You can even use Dart server-side as well.</p>
+
+    {{ range $index, $elemen:= .Site.Data.dart.category }}
+      <div>
+        <h3 class="heading">{{ .title }}</h3>
+        {{ range .links}}
+          <div class="flex flex-column flex-row-ns mb2">
+            <div class="pr3-ns mb0 mb0-ns w-100 w-20-ns">
+              <a href="{{ .link }}">
+                <img class="card-img-top img-fluid" src="{{ if and (.image) (ne .image "") }}{{ .image | relURL }}{{ else }}/resources/img/dart.png{{ end }}" alt="{{ .name | markdownify }}">
+              </a>
+            </div>
+            <div class="w-100 w-80-ns pl3-ns ">
+              <a href="{{ .link }}">
+                <h4 class="mb0 mt0">{{ .name }}</h4>
+              </a>
+              <p class="summary mt0">{{ .description }}</p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+
+  
+  
+</div>
+
+{{ partial "social.html" . }}
+
+{{ end }}

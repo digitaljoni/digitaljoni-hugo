@@ -1,0 +1,79 @@
+category:
+- title: Flutter SDK
+  links:
+  - name: Flutter SDK - Official Site
+    link: https://flutter.dev/
+    description: Official website of Flutter SDK
+  - name: Flutter Widget Catalog
+    link: https://flutter.dev/docs/development/ui/widgets
+    description: Flutter’s collection of visual, structural, platform, and interactive widgets
+
+- title: Flutter Codelabs
+  links:
+  - name: Flutter Layout Basics
+    link: https://flutter.dev/docs/codelabs/layout-basics
+    description: Get the basics of Row and Column widgets
+  - name: Write Your First App Part 1
+    link: https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1
+    description: Tutorial for building a First App
+  - name: Write Your First App Part 2
+    link: https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2
+    description: Tutorial for building a First App
+  - name: Building Beautiful UIs with Flutter
+    link: https://codelabs.developers.google.com/codelabs/flutter/
+    description: Tutorial for building a beautiful UIs
+  - name: And more Flutter codelabs
+    link: https://flutter.dev/docs/codelabs
+    description: Find more codelabs here
+
+- title: Flutter SDK Video Tutorials
+  links:
+  - name: Build Native Mobile Apps with Flutter
+    link: https://www.udacity.com/course/build-native-mobile-apps-with-flutter--ud905
+    description: 
+  - name: Coding With Flutter
+    link: https://www.youtube.com/watch?v=u_Lyx8KJWpg&list=PLNnAcB93JKV9iZ2cwk9MEx3_JG8BRikMP
+    description: 
+
+- title: Flutter SDK Youtube
+  links:
+  - name: Flutter Official Youtube Channel
+    link: https://www.youtube.com/channel/UCwXdFgeE9KYzlDdR7TG9cMw
+    description: 
+  - name: Widgets 101
+    link: https://www.youtube.com/playlist?list=PLOU2XLYxmsIJyiwUPCou_OVTpRIn_8UMd
+    description: 
+  - name: Widget of the Week
+    link: https://www.youtube.com/playlist?list=PLjxrf2q8roU23XGwz3Km7sQZFTdB996iG
+    description:
+
+- title: Flutter SDK Tutorials
+  links:
+  - name: How to Create Your First App
+    link: https://www.toptal.com/flutter/flutter-tutorial
+    description: 
+  - name: JSON and Serialization in Flutter
+    link: https://flutter.dev/docs/development/data-and-backend/json
+    description: 
+
+
+- title: Flutter SDK Tools
+  links:
+  - name: How to do this in Flutter?
+    link: https://howtodothisinflutter.com/
+    description: Flutter and dart cheat sheet
+  - name: Flutter Icon
+    link: http://fluttericon.com/
+    description: Convert your SVG icons to Icon fonts (complete with Flutter code)
+  - name: Flutter Studio
+    link: https://flutterstudio.app/
+    description: Online drag and drop tool to build Flutter UI
+
+- title: Flutter SDK Tools
+  links:
+  - name: Awesome Flutter
+    link: https://github.com/Solido/awesome-flutter
+    description: Lots of great Flutter resources and code samples
+  - name: ItsAllWidgets 
+    link: https://itsallwidgets.com/?open_source=true
+    description: List of apps made using Flutter SDK

@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<div class="pa3 cf w-90-ns center">
+  <div class="cf w-100">
+    <div class="col-md-12 text-center">
+      <h2 id="title">{{ .Title }}</h2>
+      
+    </div>
+  </div>
+  
+  <article class=" article-body cf w-100">
+    <p>
+      Flutter SDK is an open-source mobile app SDK created by Google. Flutter SDK allows you to build an app using a single codebase that can be compiled to both Android and IOS. It is also used to build applications for Google Fuchsia OS. 
+    </p>
+    <p>
+      You write your Flutter applications using a programming language called <a href="https://digitaljoni.com/dart/">Dart</a>. Unlike other solutions which uses a bridge, your Dart code gets compiled to machine code. This gives you the advantage of having native performance for your app.
+    </p>
+    <p>
+      Here is a growing list of Flutter resources I have found online. I hope these will help you get started and also improve your Flutter skills.
+    </p>
+    
+    {{ range $index, $elemen:= .Site.Data.flutter.category }}
+      <div>
+        <h3 class="heading">{{ .title }}</h3>
+        {{ range .links}}
+          <div class="flex flex-column flex-row-ns mb2">
+            <div class="pr3-ns mb0 mb0-ns w-100 w-20-ns">
+              <a href="{{ .link }}">
+                <img class="card-img-top img-fluid" src="{{ if and (.image) (ne .image "") }}{{ .image | relURL }}{{ else }}/resources/img/flutter.png{{ end }}" alt="{{ .name | markdownify }}">
+              </a>
+            </div>
+            <div class="w-100 w-80-ns pl3-ns">
+              <a href="{{ .link }}">
+                <h4 class="mb0 mt0">{{ .name }}</h4>
+              </a>
+              <p class="summary mt0">{{ .description }}</p>
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+
+  
+  
+</div>
+
+{{ partial "social.html" . }}
+
+{{ end }}
