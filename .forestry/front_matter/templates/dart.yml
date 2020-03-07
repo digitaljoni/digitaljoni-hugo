@@ -3,8 +3,8 @@ label: Dart
 hide_body: true
 fields:
 - type: field_group_list
-  name: category
-  label: category
+  name: dart
+  label: dart
   fields:
   - type: text
     name: title
@@ -25,3 +25,5 @@ fields:
     - type: text
       name: description
       label: description
+pages:
+- data/dart.yml
