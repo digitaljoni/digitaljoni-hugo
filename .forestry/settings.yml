@@ -8,7 +8,7 @@ sections:
   path: data
   label: Dart Data
   create: documents
-  match: "**/*"
+  match: dart.yml
   new_doc_ext: yml
   templates:
   - dart
