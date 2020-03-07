@@ -5,6 +5,14 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
+  path: data
+  label: Dart Data
+  create: documents
+  match: "**/*"
+  new_doc_ext: yml
+  templates:
+  - dart
+- type: directory
   path: content
   label: Pages
   create: all
