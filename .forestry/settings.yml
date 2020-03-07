@@ -24,6 +24,7 @@ sections:
   label: Flutter
   create: all
   match: "**/*"
+  new_doc_ext: yml
   templates:
   - flutter
 - type: directory
@@ -31,6 +32,7 @@ sections:
   label: Dart
   create: all
   match: "**/*"
+  new_doc_ext: yml
   templates:
   - dart
 - type: directory
