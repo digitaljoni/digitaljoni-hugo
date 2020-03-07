@@ -24,16 +24,22 @@ sections:
   label: Flutter
   create: all
   match: "**/*"
+  templates:
+  - flutter
 - type: directory
   path: content/dart
   label: Dart
   create: all
   match: "**/*"
+  templates:
+  - dart
 - type: directory
   path: content/blog
   label: Blog
   create: all
   match: "**/*"
+  templates:
+  - post
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
