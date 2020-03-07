@@ -22,5 +22,8 @@ fields:
     - type: text
       name: link
       label: link
+    - type: text
+      name: description
+      label: description
 pages:
 - data/dart.yml
