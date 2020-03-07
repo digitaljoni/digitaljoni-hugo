@@ -1,0 +1,13 @@
+<article class="mb0">
+  <h3 class="mb1"><a class="post-title" href="{{ .Permalink }}">{{ .Title | markdownify }}</a></h3>
+  <div class="mb3 meta">
+    {{ .PublishDate.Format "02 Jan 2006" }}, {{ range .Params.Categories }}
+    <a href="{{ `categories/` | relLangURL }}{{ . | urlize | lower }}">{{ . | title | humanize }}</a>
+    {{ end }}
+  </div>
+  <div class="article-body">
+    <p>{{.Summary}}</p>
+  </div>
+  
+  <a href="{{ .Permalink }}" class="br-pill">read more</a>
+</article>
