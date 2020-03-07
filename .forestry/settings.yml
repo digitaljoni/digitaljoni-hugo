@@ -11,7 +11,7 @@ sections:
   match: dart.yml
   new_doc_ext: yml
   templates:
-  - dart
+  - flutter
 - type: directory
   path: content
   label: Pages
