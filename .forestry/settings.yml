@@ -5,14 +5,6 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: data
-  label: Dart Data
-  create: documents
-  match: dart.yml
-  new_doc_ext: yml
-  templates:
-  - flutter
-- type: directory
   path: content
   label: Pages
   create: all
@@ -28,21 +20,21 @@ sections:
   create: all
   match: "**/*"
 - type: directory
-  path: content/flutter
-  label: Flutter
-  create: all
-  match: "**/*"
+  path: data
+  label: Dart
+  create: documents
+  match: dart.yml
   new_doc_ext: yml
   templates:
   - flutter
 - type: directory
-  path: content/dart
-  label: Dart
-  create: all
-  match: "**/*"
+  path: data
+  label: Flutter
+  create: documents
+  match: flutter.yml
   new_doc_ext: yml
   templates:
-  - dart
+  - flutter
 - type: directory
   path: content/blog
   label: Blog
