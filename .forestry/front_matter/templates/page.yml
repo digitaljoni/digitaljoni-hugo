@@ -36,3 +36,5 @@ fields:
     required: false
   label: type
   default: page
+pages:
+- content/about.md
