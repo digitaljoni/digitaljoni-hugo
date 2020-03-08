@@ -17,6 +17,11 @@ fields:
 - type: file
   name: image
   label: image
+- name: featured_image
+  type: file
+  config:
+    maxSize: 250
+  label: Featured Image
 - type: number
   name: weight
   label: weight
