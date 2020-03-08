@@ -8,23 +8,22 @@ fields:
 - type: text
   name: slug
   label: slug
+- name: image
+  type: text
+  config:
+    required: false
+  label: Image Url
+- name: featured_image
+  type: text
+  config:
+    required: false
+  label: Featured Image
 - type: list
   name: tags
   label: tags
 - type: list
   name: categories
   label: categories
-- type: file
-  name: image
-  label: image
-- name: featured_image
-  type: file
-  config:
-    maxSize: 250
-  label: Featured Image
-- type: number
-  name: weight
-  label: weight
 - type: boolean
   name: showcomments
   label: showcomments
