@@ -30,3 +30,9 @@ fields:
 - type: boolean
   name: showmeta
   label: showmeta
+- name: type
+  type: text
+  config:
+    required: false
+  label: type
+  default: page
