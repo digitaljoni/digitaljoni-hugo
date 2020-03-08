@@ -1,0 +1,28 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: slug
+  label: slug
+- type: list
+  name: tags
+  label: tags
+- type: list
+  name: categories
+  label: categories
+- type: file
+  name: image
+  label: image
+- type: number
+  name: weight
+  label: weight
+- type: boolean
+  name: showcomments
+  label: showcomments
+- type: boolean
+  name: showmeta
+  label: showmeta
