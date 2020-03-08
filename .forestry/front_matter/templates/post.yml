@@ -20,6 +20,13 @@ fields:
 - type: list
   name: categories
   label: categories
+- name: tags
+  type: list
+  config:
+    use_select: false
+    min: 
+    max: 
+  label: tags
 - type: text
   name: type
   label: type
