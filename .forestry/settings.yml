@@ -43,7 +43,7 @@ sections:
   templates:
   - flutter
 - type: directory
-  path: ''
+  path: "."
   label: Configuration
   create: all
   match: "*.toml"
