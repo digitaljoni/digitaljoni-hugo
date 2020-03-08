@@ -31,3 +31,5 @@ fields:
 - type: boolean
   name: showmeta
   label: showmeta
+pages:
+- content/about.md
