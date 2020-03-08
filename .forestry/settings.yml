@@ -10,6 +10,13 @@ sections:
   create: all
   match: "*"
 - type: directory
+  path: content/blog
+  label: Blog
+  create: documents
+  match: "**/*"
+  templates:
+  - post
+- type: directory
   path: content/projects
   label: Projects
   create: all
@@ -36,12 +43,11 @@ sections:
   templates:
   - flutter
 - type: directory
-  path: content/blog
-  label: Blog
-  create: documents
-  match: "**/*"
-  templates:
-  - post
+  path: ''
+  label: Configuration
+  create: all
+  match: "*.toml"
+  new_doc_ext: toml
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
