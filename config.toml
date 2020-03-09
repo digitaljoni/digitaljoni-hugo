@@ -1,46 +1,42 @@
 baseURL = "https://digitaljoni.com/"
-languageCode = "en-US"
-title = "digitaljoni"
-# Enable Google Analytics by entering your tracking code
 googleAnalytics = "UA-7914706-1"
-
+languageCode = "en-US"
 theme = "digitaljoni"
-
-[blackfriday] 
-  hrefTargetBlank = true
-
-[permalinks]
-  post = "/:year/:slug"
-      
+title = "digitaljoni"
+[blackfriday]
+hrefTargetBlank = true
+[[menu.main]]
+name = "blog"
+url = "/blog/"
+weight = 2
+[[menu.main]]
+identifier = "resources"
+name = "resources"
+url = "/resources/"
+weight = 4
+[[menu.main]]
+identifier = "projects"
+name = "projects"
+url = "/projects/"
+weight = 3
+[[menu.main]]
+identifier = "home"
+name = "home"
+url = "/"
+weight = 1
 [params]
-  logo = "logo-2018.png"
-  pageLogo = "logo2.png"
-  homebackground = "digitaljoni-header.jpg"
-  author = "Joennie Sindo"
-  description = "Web/Mobile Application Development"
-
+author = "Joennie Sindo"
+description = "Web/Mobile Application Development"
+homebackground = "digitaljoni-header.jpg"
+logo = "logo-2018.png"
+pageLogo = "logo2.png"
 [params.social]
-  github="digitaljoni"
-  instagram="digitaljoni"
-  twitter="digitaljoni"
-  facebook="digitaljoni"
-  google="+digitaljoni"
-  linkedin="digitaljoni"
-  email="joni@digitaljoni.com"
-
-## Main Menu
-[[menu.main]]
-  name = "home"
-  weight = 100
-  identifier = "home"
-  url = "/"
-[[menu.main]]
-  name = "projects"
-  identifier = "projects"
-  weight = 200
-  url = "/projects/"
-[[menu.main]]
-  name = "resources"
-  identifier = "resources"
-  weight = 200
-  url = "/resources/"
+email = "joni@digitaljoni.com"
+facebook = "digitaljoni"
+github = "digitaljoni"
+google = "+digitaljoni"
+instagram = "digitaljoni"
+linkedin = "digitaljoni"
+twitter = "digitaljoni"
+[permalinks]
+post = "/:year/:slug"
