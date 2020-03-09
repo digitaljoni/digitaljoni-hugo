@@ -32,4 +32,5 @@ fields:
   label: type
   default: post
 pages:
+- content/blog/hello-world.md
 - content/blog/how-to-create-and-use-custom-icon-sets-in-flutter.md
