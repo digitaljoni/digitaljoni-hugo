@@ -31,3 +31,5 @@ fields:
   name: type
   label: type
   default: post
+pages:
+- content/blog/how-to-create-and-use-custom-icon-sets-in-flutter.md
