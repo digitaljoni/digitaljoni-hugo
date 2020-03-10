@@ -1,15 +1,17 @@
 +++
 author = ""
 categories = []
-date = ""
+date = 2020-03-09T16:00:00Z
 description = ""
 image = ""
-tags = []
+tags = ["dart"]
 title = "OOP in Dart - DBZ Edition"
 type = "post"
 
 +++
 The following slide was part of my talk last March 2020 which gives a fun look at object-oriented programming in Dart. I used familiar anime characters to make it easy enough for beginners to understand and to be clear enough to illustrate objects in Dart language.
+
+<iframe src="//www.slideshare.net/slideshow/embed_code/key/GuVnMI18tDUKl7" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe> <div style="margin-bottom:5px"> <strong> <a href="//www.slideshare.net/digitaljoni/objectoriented-programming-in-dart-dragonball-z" title="Object-Oriented Programming in Dart - Dragonball Z" target="_blank">Object-Oriented Programming in Dart - Dragonball Z</a> </strong> from <strong><a href="https://www.slideshare.net/digitaljoni" target="_blank">digitaljoni</a></strong> </div>
 
 Slide 1
 
@@ -25,24 +27,36 @@ Slide 3
 
 Here we created 2 objects - "Goku" and "Vegeta" and test out their methods.
 
+<iframe src="https://dartpad.dev/embed-inline.html?id=5d4b8134eb09c2e6477e77a77f2e13b1"></iframe>
+
 Slide 4
 
 We then create a fight function to compare who has a higher amount of power. So in a fight with "Goku" and "Vegeta", "Goku" wins.
+
+<iframe src="https://dartpad.dev/embed-inline.html?id=afd3bb82ccab66df064c9b3c6633ca23"></iframe>
 
 Slide 5
 
 A new challenger approaches... "Broly" illustrates how we can define a named constructor to automatically define the amount of power the Saiyan object has. Since this new Saiyan object has a power greater than the two previous Saiyan objects, it will easily win in a fight individually.
 
+<iframe src="https://dartpad.dev/embed-inline.html?id=997ee71c457c1488517b03080be7bae0"></iframe>
+
 Slide 6
 
 In the Dragonball universe, Saiyans can do a fusion dance which results in them combining into one Saiyan with both their powers combined. Here we use this to illustrate Dart's feature of operator overriding. In this case, we override the plus (+) operator. So now if you add a Saiyan object with another Saiyan object, you will get a new Saiyan object with names and powers combined. Now if we use "Gogeta" and compare it to "Broly", the latter wins this round.
+
+<iframe src="https://dartpad.dev/embed-inline.html?id=1856b6fc5c62ce9cd99ede05b2e071c3"></iframe>
 
 Slide 7
 
 Just to keep things neat and proper, we move the "fight" function inside the Saiyan object.
 
+<iframe src="https://dartpad.dev/embed-inline.html?id=965b9e240a01326945424fb8244592e3"></iframe>
+
 Slide 8
 
 Later on into the Dragonball series, the Saiyans learn to enhance their power and become can now become "Super Saiyans". In this slide, we illustrate this by using Object Inheritance. The "SupaSaiyan" extends the "Saiyan" class and now you have a new object with a new property called "level" which basically represents the power level of the Saiyan object. If you have a power level of 2, it would result in double the power of the Saiyan.
 
-The objects illustrated here are far from perfect and can still be improved upon. Nevertheless, it is a start and you can use the concepts here for your projects.
+<iframe src="https://dartpad.dev/embed-inline.html?id=498ad0d40c8800970f8dbf2b89f12771"></iframe>
+
+The Saiyan object examples illustrated here are far from perfect and can still be improved upon. Nevertheless, it is a start and you can use the concepts here for your projects.
