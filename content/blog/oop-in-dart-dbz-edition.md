@@ -9,7 +9,7 @@ title = "OOP in Dart - DBZ Edition"
 type = "post"
 
 +++
-The following slide was part of my talk last March 2020 which gives a fun look at object-oriented programming in Dart. I used familiar anime characters to make it easy enough for beginners to understand and to be clear enough to illustrate objects in Dart language.
+The following slide was part of my talk last February 2020 which gives a fun look at object-oriented programming in Dart. I used familiar anime characters to make it easy enough for beginners to understand and to be clear enough to illustrate objects in Dart language.
 
 {{< slideshare id="GuVnMI18tDUKl7" >}}
 
@@ -21,13 +21,11 @@ Slide 2
 
 To make things simple, we represent a Saiyan object with two properties: the character's name and character's amount of power. And we give the character a few methods to punch, kick and do a special move. We also customize the toString() function to output the name and power.
 
-
 Slide 3
 
 Here we created 2 objects - "Goku" and "Vegeta" and test out their methods.
 
 {{< dartpad id="5d4b8134eb09c2e6477e77a77f2e13b1" >}}
-
 
 Slide 4
 
