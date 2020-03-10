@@ -2,14 +2,14 @@
 author = ""
 categories = []
 date = 2020-03-09T16:00:00Z
-description = ""
+description = "Imagine you were given the task of creating an RPG set in the Dragonball universe and your task was to develop the Saiyan characters of the game. Here's a fun look at how to do OOP in Dart language."
 image = "https://digitaljoni.com/images/oop-in-dart-dbz.png"
 tags = ["dart"]
 title = "OOP in Dart - DBZ Edition"
 type = "post"
 
 +++
-The following slide was part of my talk last February 2020 which gives a fun look at object-oriented programming in Dart. I used familiar anime characters to make it easy enough for beginners to understand and to be clear enough to illustrate objects in Dart language.
+The following slideshow was part of my talk last February 2020 which gives a fun look at object-oriented programming in Dart. I used familiar anime characters to make it easy enough for beginners to understand and to be clear enough to illustrate objects in Dart language.
 
 {{< slideshare id="GuVnMI18tDUKl7" >}}
 
