@@ -10,16 +10,18 @@ fields:
   label: date
   config:
     required: true
-- type: file
-  name: image
+- type: text
+  name: description
+  label: description
+- name: image
+  type: text
+  config:
+    required: false
   label: image
 - type: text
   name: author
   label: author
   default: digitaljoni
-- type: text
-  name: description
-  label: description
 - type: list
   name: categories
   label: categories
