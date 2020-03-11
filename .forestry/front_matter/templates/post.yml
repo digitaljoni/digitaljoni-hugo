@@ -37,6 +37,7 @@ fields:
   label: type
   default: post
 pages:
+- content/blog/git-tips-how-to-ignore-changes-to-a-tracked-file.md
 - content/blog/hello-world.md
 - content/blog/how-to-create-and-use-custom-icon-sets-in-flutter.md
 - content/blog/oop-in-dart-dbz-edition.md
