@@ -1,10 +1,10 @@
 +++
-author = ""
+author = "digitaljoni"
 categories = []
 date = 2020-03-09T16:00:00Z
 description = "Imagine you were given the task of creating an RPG set in the Dragonball universe and your task was to develop the Saiyan characters of the game. Here's a fun look at how to do OOP in Dart language."
 image = "https://digitaljoni.com/images/oop-in-dart-dbz.png"
-tags = ["dart"]
+tags = ["presentation", "slides"]
 title = "OOP in Dart - DBZ Edition"
 type = "post"
 
