@@ -1,11 +1,11 @@
 +++
 author = "digitaljoni"
-categories = ["tutorials"]
+categories = ["git"]
 date = 2020-03-13T16:00:00Z
 description = "There will be times when you have a file that you would need to edit to test something in your app and you do not want to commit those changes to the repository. "
 draft = true
 image = "https://digitaljoni.com/images/workflow_blog.jpg"
-tags = ["workflow", "git"]
+tags = ["tips"]
 title = "Git tips: How to Ignore changes to a tracked file"
 type = "post"
 
