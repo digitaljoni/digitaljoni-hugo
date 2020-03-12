@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+<div class="pa3 cf w-90-ns center">
+  <div class="cf w-100">
+    <div class="col-md-12 text-center">
+      <h2 id="title">{{ .Title }}</h2>
+      
+    </div>
+  </div>
+
+  {{ partial "share_buttons.html" . }}
+  
+  <article class=" article-body cf w-100">
+    <p>Most of the projects that I have done so far are from working with different companies and because of that I am
+      unable to display them in this site. If you would like see some examples, please feel free to <a href="mailto:joni@digitaljoni.com">contact me</a> and I would be happy
+    to send you a few samples   </p>
+
+    <p>
+      However, you can check out some personal projects that I have worked on during my free time:
+    </p>
+
+    {{ range $index, $elemen:= .Site.Data.project.category }}
+      <div>
+        <h3 class="heading">{{ .title }}</h3>
+        {{ range .links}}
+          <div class="flex flex-column flex-row-ns mb2">
+            <div class="pr3-ns mb0 mb0-ns w-100 w-20-ns">
+              <a href="{{ .postlink }}">
+                <img class="card-img-top img-fluid" src="{{ if and (.image) (ne .image "") }}{{ .image | relURL }}{{ else }}/img/theme/thumb.png{{ end }}" alt="{{ .name | markdownify }}">
+              </a>
+            </div>
+            <div class="w-100 w-80-ns pl3-ns ">
+              <a href="{{ .postlink }}">
+                <h4 class="mb0 mt0">{{ .name }}</h4>
+              </a>
+              <p class="summary mt0">{{ .description }}</p>
+              <p class="summary mt0">
+                {{ if and (.link) (ne .link "") }}
+                  Link: <a href="{{ .link }}">{{ .link }}</a>
+                {{ end }}
+              </p>
+              
+            </div>
+          </div>
+        {{ end }}
+      </div>
+    {{ end }}
+  </article>
+
+  
+  
+</div>
+
+{{ partial "social.html" . }}
+
+{{ end }}

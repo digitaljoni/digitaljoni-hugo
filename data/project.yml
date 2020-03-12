@@ -1,0 +1,20 @@
+category:
+- title: Flutter/Dart Projects
+  links:
+  - name: NoizArt
+    image: https://digitaljoni.com/images/project_noizart.jpg
+    link: https://www.instagram.com/noizart.art/
+    postlink: https://digitaljoni.com/projects/noizart/
+    description: (Ongoing project) Art project done in Flutter/Dart. Constructing a quasi-AI where it will use a decision tree to choose it's mood, color themes, and art variants.
+  - name: PhStocks Tracker
+    image: https://digitaljoni.com/images/project_phstocks.jpg
+    link: https://play.google.com/store/apps/details?id=com.digitaljoni.ph_stock_tracker
+    postlink: https://digitaljoni.com/projects/phstocks/
+    description: PhStocks Tracker is a mobile app that Philippine stock investors can utilize to watch price changes to their selected stocks. 
+- title: Pub Packages
+  links:
+  - name: NoizArtPainter
+    image: https://digitaljoni.com/images/project_noizartpainter.jpg
+    link: https://pub.dev/packages/noiz_art_painter
+    postlink: https://pub.dev/packages/noiz_art_painter
+    description: Set of methods used in the NoizArt project. It is heavily inspire by p5.js but with additional custom commands
