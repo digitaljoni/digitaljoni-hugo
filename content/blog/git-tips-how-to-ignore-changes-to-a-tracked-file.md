@@ -3,14 +3,12 @@ author = "digitaljoni"
 categories = ["git"]
 date = 2020-03-13T16:00:00Z
 description = "There will be times when you have a file that you would need to edit to test something in your app and you do not want to commit those changes to the repository. "
-draft = true
 image = "https://digitaljoni.com/images/workflow_blog.jpg"
 tags = ["tips"]
 title = "Git tips: How to Ignore changes to a tracked file"
 type = "post"
 
 +++
-
 There will be times when you have a file that you would need to edit to test something in your app and you don't want to commit those changes to the repository. Let’s say you have config_dev.dart currently containing settings of your app in a development environment:
 
     const String apiUrl = “localhost:3000/api/articles/“
