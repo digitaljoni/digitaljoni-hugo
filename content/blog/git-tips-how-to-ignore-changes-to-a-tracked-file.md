@@ -23,13 +23,13 @@ If you save this file, git will tell you that there are changes to the file. Sin
 
 Instead, you can use the following command to **disable change tracking on the file**:
 
-    git update-index —assume-unchanged lib/config_dev.dart
+    git update-index --assume-unchanged lib/config_dev.dart
 
 So now you can change config_dev.dart as much as you want and any changes are ignored by Git.
 
 If you want Git to **resume tracking any changes to the file**:
 
-    git update-index —no-assume-unchanged lib/config_dev.dart
+    git update-index --no-assume-unchanged lib/config_dev.dart
 
 I hope this helps you! It sure was a time saver for me!
 
