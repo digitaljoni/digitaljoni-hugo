@@ -3,7 +3,6 @@ author = "digitaljoni"
 categories = []
 date = 2020-03-17T11:00:00Z
 description = "Learn how to apply gradients to icons in Flutter app"
-draft = true
 image = ""
 tags = []
 title = "How to Apply Gradients To Icons in Flutter"
