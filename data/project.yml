@@ -1,11 +1,16 @@
 category:
 - title: Flutter/Dart Projects
   links:
+  - name: Critterpedia
+    image: https://digitaljoni.com/images/project_critterpedia.png
+    link: https://digitaljoni.com/projects/critterpedia/
+    postlink: https://digitaljoni.com/projects/critterpedia/
+    description:  Critterpedia is a tool that you can use to keep track of insects, fishes and sea creatures you have caught in Animal Crossing New Horizons Game.
   - name: NoizArt
     image: https://digitaljoni.com/images/project_noizart.jpg
     link: https://www.instagram.com/noizart.art/
     postlink: https://digitaljoni.com/projects/noizart/
-    description: (Ongoing project) Art project done in Flutter/Dart. Constructing a quasi-AI where it will use a decision tree to choose it's mood, color themes, and art variants.
+    description: (On hold) Art project done in Flutter/Dart. Constructing a quasi-AI where it will use a decision tree to choose it's mood, color themes, and art variants.
   - name: PhStocks Tracker
     image: https://digitaljoni.com/images/project_phstocks.jpg
     link: https://play.google.com/store/apps/details?id=com.digitaljoni.ph_stock_tracker
