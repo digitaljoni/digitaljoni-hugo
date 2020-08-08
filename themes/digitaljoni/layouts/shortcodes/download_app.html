@@ -1,0 +1,16 @@
+<div>
+    {{ if (.Get "ios") -}}
+    <a href="{{.Get "ios"}}" class="appStore dib grow inline-flex " target="_blank">
+        <div class=" ma1" style="width: 13rem;">
+            <img alt="Download on the App Store" src="images/download_ios.png">
+        </div>
+    </a>
+    {{ end }}
+    {{ if (.Get "android") -}}
+    <a href="{{.Get "android"}}" class="googlePlay dib grow inline-flex " target="_blank">
+        <div class="w5 ma1">
+            <img alt="Get it on google play" src="images/download_android.png">
+        </div>
+    </a>
+    {{ end }}
+</div>
