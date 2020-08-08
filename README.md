@@ -34,3 +34,10 @@ Deploy
 ```bash
 ./deploy.sh
 ```
+
+
+## Generate Thumbnails in Gallery
+
+```
+for i in `find static/images/galleries -type f ! -name "*-thumb.png" -name "*.png"`; do echo $i; if [ -f ${i%.*}-thumb.png ]; then continue; fi; convert $i -thumbnail 100x100 ${i%.*}-thumb.png; done
+```
